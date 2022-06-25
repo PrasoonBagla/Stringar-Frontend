@@ -1,0 +1,528 @@
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #000;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.topnav {
+  
+  
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+
+
+.topnav a.active {
+  border-bottom: 3px solid red;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropbtn3
+{
+  color: #fff;
+}
+.dropbtn
+{
+  cursor: pointer;
+}
+.dropbtn3:hover
+{
+  color:#2d8700;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.company-name{
+  font-size: xx-large;
+}
+.nav
+{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-right-width: 20px;
+ 
+}
+.navbar-brand
+{
+  
+  font-size: xx-large;
+font-family: 'Orbitron', sans-serif;
+color: #fff;
+}
+.navbar-brand:hover
+{
+  color: #2d8700;
+}
+body{
+  background-color: #000;
+}
+#carouselExampleCaptions
+{
+  
+  margin-top: 0px;
+  padding-top: 30px;
+  border-right-width: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+.carousel-caption
+{
+  top: 50%;
+transform: translateY(-50%);
+bottom: initial;
+}
+.carousel-item
+{
+  
+  padding-top: 50px;
+  border-left-width: 50px;
+  padding-left: 50px;
+  border-right-width: 50px;
+  padding-right: 50px;
+  
+
+}
+.nav-link
+{
+  color: white;
+}
+.nav-link:hover
+{
+  color: #2d8700;
+}
+.navbar
+{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #000;
+  border-bottom: 2px solid #2d8700;
+}
+.nav-item
+{
+  
+  margin-right: 20px;
+
+}
+.cardsimage{
+  
+  width: 280px;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 50px;
+  border-radius: 30px;
+ 
+}
+.zoom {
+  transition: transform .2s; /* Animation */
+}
+.icon
+{
+  
+  width: 50px;
+  margin-right: 20px;
+
+}
+.zoom:hover {
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+#carouselExampleCaptions
+{
+  
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+}
+.column {
+  float: left;
+  width: auto;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row
+{
+  
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+.icon-leaderboard
+{
+  
+  text-align: center;
+  width: 365px;
+
+}
+
+.carding
+{
+  
+  width: 426px;
+  height: 302px;
+
+}
+.icon-leaderboard
+{
+  
+  margin-bottom: 30px;
+
+}
+.card1
+{
+  
+  left: 167px;
+  margin-right: 0px;
+
+}
+.card2
+{
+  left: 217px;
+}
+#footer
+{
+    padding: 7% 15%;
+    text-align: center;
+    color: #fff;
+}
+
+/* products */
+.product {
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.product-category {
+  padding: 0 10vw;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.product-container {
+  padding: 0 10vw;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.product-container::-webkit-scrollbar {
+  display: none;
+}
+
+.product-card {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 450px;
+  margin-right: 40px;
+}
+
+.product-image {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 5%;
+  transition: transform .2s;
+}
+.product-image:hover
+{
+  transform: scale(1.05);
+}
+.product-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.5);
+}
+
+.discount-tag {
+  position: absolute;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  color: #ff7d7d;
+  right: 10px;
+  top: 10px;
+  text-transform: capitalize;
+}
+
+.card-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  width: 90%;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  background: #fff;
+  border-radius: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.product-card:hover .card-btn {
+  opacity: 1;
+}
+
+.card-btn:hover {
+  background: #ff7d7d;
+  color: #fff;
+}
+
+.product-info {
+  width: 100%;
+  height: 100px;
+  padding-top: 10px;
+}
+
+.product-brand {
+  text-transform: uppercase;
+}
+
+.product-short-description {
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  overflow: hidden;
+  opacity: 0.5;
+  text-transform: capitalize;
+  margin: 5px 0;
+}
+
+.price {
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.actual-price {
+  margin-left: 20px;
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.pre-btn,
+.nxt-btn {
+  border: none;
+  width: 10vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #323232 100%);
+  cursor: pointer;
+  z-index: 8;
+}
+
+.pre-btn {
+  left: 0;
+  transform: rotate(180deg);
+}
+
+.nxt-btn {
+  right: 0;
+}
+
+.pre-btn img,
+.nxt-btn img {
+  opacity: 0.2;
+}
+
+.pre-btn:hover img,
+.nxt-btn:hover img {
+  opacity: 1;
+}
+
+.collection-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.collection {
+  position: relative;
+}
+
+.collection img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.collection p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+
+.collection:nth-child(3) {
+  grid-column: span 2;
+  margin-bottom: 10px;
+}
+
+.leaderboard-card
+{
+  min-height: 475px;
+  width: 275px;
+  background-color: #fff;
+  border-radius: 5%;
+  padding-top: 25px;
+
+}
+.leaderboard-card1
+{
+
+  width: 800px;
+  margin-right: 50px;
+
+}
+.leaderboard-card2
+{
+  
+
+  margin-right: 0px;
+
+
+}
+.leaderboard-card-body
+{
+  text-align: center;
+
+}
+.leaderboard-button
+{
+  
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+.photo {  
+    height: 15px;
+    width: 75px;
+
+}
+.photo-2nd
+{
+
+  bottom: 20px;right: 5px;
+
+  position:relative;
+
+}
+.photo-1st
+{
+  bottom: 50px;
+
+  
+ 
+  
+
+  position:relative;
+
+}
+.photo-3rd
+{
+
+
+  bottom: 10px;
+
+ 
+  position:relative;
+
+}
+.medal1
+{
+  position:
+  relative;
+  width: 50px;
+  
+  right: 85px;
+  top: 80px;
+  bottom: auto;
+
+}
+.medal2
+{
+  position:relative;
+  width: 50px;
+
+ 
+
+}
+.medal3
+{
+  position:relative;
+  width: 50px;
+  
+  
+  left: 80px;
+  bottom: 7px;
+
+
+}
